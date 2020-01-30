@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <link href="style/search.css" type="text/css" rel="stylesheet">
     <link href="style/normalize.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"> 
 </head>
 
 <body>
@@ -17,18 +18,24 @@
     </header>
     <main>
         <form aciton="#">
-            <label for=""></label>
-            <select name="item">
-                <option value="1">Option 1</option>
-                <option value="2">Option 2</option>
-                <option value="3">Option 3</option>
-            </select>
+            <div>
+                <label for="item">Select an Item to Reserve</label>
+                <select name="item">
+                    <option value="1">Option 1</option>
+                    <option value="2">Option 2</option>
+                    <option value="3">Option 3</option>
+                </select>
+            </div>
 
-            <label for="date">Select a Date</label>
-            <input type="date" id="date">
+            <div>
+                <label for="date">Select a Date</label>
+                <input type="date" id="date">
+            </div>
 
-            <label for="time">Select a Time</label>
-            <input type="time" id="time">
+            <div>
+                <label for="time">Select a Time</label>
+                <input type="time" id="time">
+            </div>
 
             <input type="submit" value="Check Availability">
         </form>
