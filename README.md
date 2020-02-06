@@ -2,6 +2,8 @@
 
 This is a project to create an online booking service.
 
-This is getting started
+## Structure
 
-Trying another one
+### Frontend
+
+This folder contains the frontend HTML/CSS/JS of the booking site.
